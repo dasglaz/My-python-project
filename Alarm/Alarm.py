@@ -5,8 +5,6 @@ from tkinter import ttk
 def autorise():
     name = name_entry.get()
     label['text'] = f"{name} авторизован"
-    time.sleep(3)
-    label['text'] = ''
     label_name['text'] = name
 
 
